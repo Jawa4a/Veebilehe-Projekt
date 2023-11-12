@@ -3,6 +3,10 @@ body {
 	font-family:Arial;
 	width: 60%;
 	margin: auto;
+
+	color: white;
+	background: black;
+
 }
 /*
 p {
