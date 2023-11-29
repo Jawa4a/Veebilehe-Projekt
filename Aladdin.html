@@ -1,84 +1,38 @@
-
 <!DOCTYPE html>
-
-<html lang=ee>
-
+<html lang="ee">
 <head>
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 <title>Aladdin</title>
-
-<meta charset="utf-8", name="viewport", content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="style.css">
-
-
-
+<style>
+</style>
 </head>
 
 <body>
-<header>
-<a href="pealeht.html" alt:"Tagasi pealehele" style="margin:0px;padding:1rem; font-size:10px;">←Tagasi</a>
-</header>
-
-
-
-
-
-
-
-
-<h1>Aladdin</h1>
-
-<div class="tutvustus" style="">
-
-	<div style="float:right;width:30%;text-align:center;">
-	<img src="aladdin.jpg" style="width:100%;margin-bottom:0.5rem;outline: 1px solid #222e33;">
-
-		
-		<a class="popup1_open" href="#" onclick="popup1_open" style="
-		text-align:center;
-		height:40px;
-		width:100%;
-		display:flex;
-		align-items: center;
-		align-content: center;
-		justify-content: center;
-		outline: 1px solid #222e33;
-		">
-
-		<div style="width:30px;height:30px;background:white;border-radius:50%;float:left;">
-		<div class="triangle" style="float:left;"></div>
-		</div>
-		<div style="margin:8px;">Trailer</div>
-		</a>
-		</div>
-	
-
-	<p style="text-align:justify;">
-		See leht räägib Guy Ritchie filmist Aladdin.
-	</p>
-
-<div id="popup1">
-  <div class='embed-container'>
-    <iframe class="embed-iframe" width="1200px" height="720px" src='https://www.youtube.com/embed/foyufD52aog?enablejsapi=1'' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
+<header></header>
+<nav></nav>
+<div class="wrapper">
+<h1 style="font-size:4vh">Aladdin</h1>
+<div class="tutvustus" style="margin-bottom:10vw;">
+<div style="float:right;width:30%;">
+<img src="aladdin.jpg" alt="Filmi Aladdin poster" style="width:100%;">
+<a class="popup1_open" href="#" onclick="popup1_open" style="outline:1px solid #222e33;padding-top:1vw;padding-bottom:1vw;display:flex;justify-content:center;align-content:center;">
+<div style="width:clamp(16px, 4vw, 20px);height: clamp(16px, 4vw, 20px);background:white;border-radius:50%;float:left; margin-right:0.6vw;">
+<div style="margin-top:clamp(1px, 0.5vw, 3px);margin-left:clamp(4px, 1vw, 5px); width: clamp(10px, 4vw, 13px); height: clamp(9px, 4vw, 14px); background-color:#09161c; clip-path: polygon(0 0, 0% 100%, 100% 50%);"></div>
+</div>Treiler</a>
 </div>
-
+<p>Guy Ritchie Aladdin on aastal 2019 koostöös Walt Disney'ga valminud film.</p>
+</div>
+<div id="popup1"><div class='embed-container'>
+	<iframe class="embed-iframe" width="1200" height="720" src='https://www.youtube.com/embed/foyufD52aog?enablejsapi=1' allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+	</iframe></div></div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/vast-engineering/jquery-popup-overlay@2/jquery.popupoverlay.min.js"></script>
-<script>
-$('#popup1').popup({
-  onclose: function () {
-    $('.embed-iframe').each(function(){
-      this.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
-    });
-
-  }
-});
-</script>
-
-
+<script>$('#popup1').popup({onclose: function () {$('.embed-iframe').each(function(){this.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');});}});</script>
 </div>
-
+<!--JavaScripti eesmärk on avada overlay ja sammuti panna video automaatselt pausile, kui overlay kinni pannakse-->
+<footer>
+</footer>
 </body>
-
 </html>
