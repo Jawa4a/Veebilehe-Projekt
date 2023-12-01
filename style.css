@@ -44,6 +44,98 @@ a:active {
 	text-decoration: none;
 }
 
+/* Näitlejate pildid*/
+.näitlejate-pildid {
+	display: flex;
+}
+.näitlejad {
+	border-radius: 10%;
+	width: 135px;
+	height: 180px;
+	float: left;
+	transition: transform 0.3s;
+	transform-origin: center;
+}
+.näitlejad:hover {
+	transform: scale(1.075);
+}
+.näitleja-nimi {
+	margin-top: 200px;
+	text-align: center;
+	font-weight: bolder;
+}
+.tegelane {
+	margin-top: 3px;
+	text-align: center;
+	color: rgb(179, 179, 179);
+	font-weight: lighter;
+	font-size: smaller;
+}
+
+
+/* Pealehel 4 filmi pildid*/
+.guy-filmid {
+	display: flex;
+}
+.filmid {
+	border-radius: 10%;
+	float: left;
+	width: 100%;
+	transition: transform 0.3s;
+	transform-origin: center;
+}
+.filmid:hover {
+	transform: scale(1.05);
+}
+.filmi-nimi {
+	margin-top: 320px;
+	text-align: center;
+	font-weight: bolder;
+}
+
+
+/* Kust vaadata nö liikuvaks*/
+.voogedastus-platvormid {
+	display: flex;
+}
+.kust-vaadata {
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-right: 20px;
+	transition: transform 0.3s;
+	transform-origin: center;
+}
+.kust-vaadata:hover {
+	transform: scale(1.2);
+}
+
+
+/* Järgmisele või eelmisele lehele*/
+.lehe-vahetus {
+	position: relative;
+}
+.järgmine-leht {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	transition: transform;
+}
+.eelmine-leht {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transition: transform;
+}
+.järgmine-leht:hover {
+	color: orange;
+}
+.eelmine-leht:hover {
+	color: orange;
+}
+
+
 /*
 .filmid::after {
   content: "";
