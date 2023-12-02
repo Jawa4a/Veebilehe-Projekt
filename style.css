@@ -4,6 +4,9 @@ body {
 	color: white;
 	font-family: Arial,Helvetica,sans-serif;
 	font-size: clamp(12px, 4vw, 16px);
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
 }
 .wrapper{
 	margin: 0 auto;
@@ -11,7 +14,7 @@ body {
 	max-width: 1000px;
 }
 .tutvustus{
-	margin-bottom:10vw;
+	margin-bottom:2vw;
 }
 .tutvustus::after {
   content: "";
@@ -43,75 +46,68 @@ a:active {
 	color: white;
 	text-decoration: none;
 }
-
-/* Näitlejate pildid*/
-.näitlejate-pildid {
-	display: flex;
-}
-.näitlejad {
-	border-radius: 10%;
-	width: 135px;
-	height: 180px;
-	float: left;
-	transition: transform 0.3s;
-	transform-origin: center;
-}
-.näitlejad:hover {
-	transform: scale(1.075);
-}
-.näitleja-nimi {
-	margin-top: 200px;
-	text-align: center;
-	font-weight: bolder;
-}
-.tegelane {
-	margin-top: 3px;
-	text-align: center;
-	color: rgb(179, 179, 179);
-	font-weight: lighter;
-	font-size: smaller;
-}
-
-
-/* Pealehel 4 filmi pildid*/
-.guy-filmid {
-	display: flex;
-}
-.filmid {
-	border-radius: 10%;
-	float: left;
-	width: 100%;
-	transition: transform 0.3s;
-	transform-origin: center;
-}
-.filmid:hover {
-	transform: scale(1.05);
-}
-.filmi-nimi {
-	margin-top: 320px;
-	text-align: center;
-	font-weight: bolder;
-}
-
-
 /* Kust vaadata nö liikuvaks*/
 .voogedastus-platvormid {
-	display: flex;
+	
 }
 .kust-vaadata {
+	float:left;
 	border-radius: 50%;
-	width: 80px;
-	height: 80px;
-	float: left;
-	margin-right: 20px;
+	width: 8%;
+	margin-right: 1vw;
 	transition: transform 0.3s;
 	transform-origin: center;
 }
 .kust-vaadata:hover {
 	transform: scale(1.2);
 }
-
-
+.voogedastus-platvormid::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Näitlejate pildid*/
+.näitlejate-konteiner {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.näitleja-eraldi-konteiner {
+	margin: 0 0;
+	padding: 0 0;
+	margin-left: 0.5vw;
+	margin-right: 0.5vw;
+	width: 14%;
+}
+.näitleja-pilt {
+	width: 100%;
+}
+.näitleja-pilt {
+	border-radius: 10%;
+	width: 100%;
+	transition: transform 0.3s;
+	transform-origin: center;
+}
+.näitleja-pilt:hover {
+	transform: scale(1.075);
+}
+.näitleja-nimi {
+	margin-top: 2vw;
+	text-align: center;
+	font-weight: bolder;
+}
+.tegelane {
+	margin-top: 0.5vw;
+	text-align: center;
+	color: rgb(179, 179, 179);
+	font-weight: lighter;
+	font-size: smaller;
+}
+.näitlejate-konteiner::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 /* Järgmisele või eelmisele lehele*/
 .lehe-vahetus {
 	position: relative;
@@ -135,7 +131,9 @@ a:active {
 	color: orange;
 }
 
-
+footer {
+	margin-top:10vw;
+}
 /*
 .filmid::after {
   content: "";
