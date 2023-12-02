@@ -75,16 +75,15 @@ a:active {
 .näitleja-eraldi-konteiner {
 	margin: 0 0;
 	padding: 0 0;
-	margin-left: 0.5vw;
-	margin-right: 0.5vw;
-	width: 14%;
+	margin-left: 1vw;
+	margin-right: 1vw;
+	width: 12vw;
 }
 .näitleja-pilt {
+	object-fit:fill;
+	height: 16vw;
 	width: 100%;
-}
-.näitleja-pilt {
 	border-radius: 10%;
-	width: 100%;
 	transition: transform 0.3s;
 	transform-origin: center;
 }
