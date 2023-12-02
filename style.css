@@ -30,6 +30,9 @@ a > ul {
 	margin-left: 3vw;
 	font-size: 90%;
 }
+.reitingud > a:hover{
+	text-decoration: underline;
+}
 .tutvustus::after {
   content: "";
   display: table;
