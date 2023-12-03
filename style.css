@@ -64,9 +64,6 @@ a:active {
 	text-decoration: none;
 }
 /* Kust vaadata nö liikuvaks*/
-.voogedastus-platvormid {
-	
-}
 .kust-vaadata {
 	float:left;
 	border-radius: 50%;
@@ -87,7 +84,7 @@ a:active {
 .näitlejate-konteiner {
 	width: 100%;
 	display: flex;
-	justify-content: center;
+	justify-content: left;
 }
 .näitleja-eraldi-konteiner {
 	margin: 0 0;
@@ -113,6 +110,9 @@ a:active {
 	margin-top: 2vw;
 	text-align: center;
 	font-weight: bolder;
+}
+.näitleja-nimi:hover {
+	color: rgb(192, 192, 192);
 }
 .tegelane {
 	margin-top: 0.5vw;
@@ -151,6 +151,9 @@ a:active {
 
 footer {
 	margin-top:10vw;
+}
+.filmi-nimi:hover {
+	color: rgb(192, 192, 192);
 }
 /*
 .filmid::after {
