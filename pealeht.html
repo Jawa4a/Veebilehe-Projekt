@@ -3,15 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guy Ritchie</title>
+    <title>21. sajandi filmid</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Guy Ritchie</h1>
-
-
-    <p>See veebileht on loodud TÜ kursuse Sissejuhatus erialasse raames ning autorid püüavad teha midagi tõesti huvitavat ja võib-olla ka kasulikku.</p>
+    <header>
+        <button id="sidePanelToggler">&#9776;</button>
+        <h1>21. sajandi filmid</h1>
+    </header>
+    <section class="content first-section">
+        <section class="content">
+            <p>21. sajandi Hollywoodi filmid on olnud tehnoloogiliste uuenduste ja žanrite mitmekesisuse poolest märkimisväärsed, tuues esile nii ulatusliku digitaalse efektide kasutuse kui ka globaalsed narratiivid, mis peegeldavad laia publikut. Samuti on see periood olnud tunnistajaks indie-filmide tõusule ja suurte frantsiiside domineerimisele, mis on muutnud nii filmide tootmist kui ka tarbimist.</p>
+        </section>
+    </section>
     
-    <img src="GuyRitchie.jpg" alt = "Pildil on Suurbritannia filmirežissöör, Guy Ritchie" width="285" height="382">
+    <section class="content second-section" id="guy-ritchie-section">
+        <h2>Guy Ritchie</h2> <!-- Uus pealkiri Guy Ritchie kohta -->
+        <p>Guy Ritchie on tuntud kui uuenduslik režissöör, kelle filmid, nagu "Lock, Stock and Two Smoking Barrels" ja "Snatch", on märkimisväärsed nende eristuva stiili ja dünaamilise jutuvestmise poolest. Tema hilisemad teosed, sealhulgas "Sherlock Holmes" ja "Aladdin", näitavad tema võimet suunata suure eelarvega linateoseid, tuues ekraanile uut elu klassikalistele lugudele.</p>
+        <div class="movie-links">
+            <a href="C:\Users\hanne\OneDrive - Tartu Ülikool\Dokumendid\UT\Sissejuhatus Erialasse\Veeibilehe projekt\Veebilehe-Projekt\Aladdin.html" target="_blank">Aladdin</a>
+            <a href="C:\Users\hanne\OneDrive - Tartu Ülikool\Dokumendid\UT\Sissejuhatus Erialasse\Veeibilehe projekt\Veebilehe-Projekt\SherlockHolmes.html" target="_blank">Sherlock Holmes</a>
+        </div>
+    </section>
+
+
+    <aside id="sidePanel" class="side-panel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="C:\Users\hanne\OneDrive - Tartu Ülikool\Dokumendid\UT\Sissejuhatus Erialasse\Veeibilehe projekt\Veebilehe-Projekt\Aladdin.html" target="_blank" target="_blank">Aladdin</a>
+        <a href="C:\Users\hanne\OneDrive - Tartu Ülikool\Dokumendid\UT\Sissejuhatus Erialasse\Veeibilehe projekt\Veebilehe-Projekt\SherlockHolmes.html" target="_blank">Sherlock Holmes</a>
+    </aside>
+
+    <script src="javascript.js"></script>
 </body>
 </html>

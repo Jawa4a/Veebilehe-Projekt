@@ -1,16 +1,107 @@
-
-body {
-	font-family:Arial;
-	width: 60%;
-	margin: auto;
-
-	color: black;
-	background: white;
-
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
 }
-/*
-p {
-  font-family: verdana;
-  font-size: 20px;
+
+.content p {
+    text-align: center; /* Keskele joondamine */
+    font-size: 40px; /* Suurendab teksti suurust */
+    margin: 0 auto; /* Lisab automaatse marginaali mõlemale küljele, et hoida tekst keskel */
+    max-width: 1500px; /* Piirab teksti laiust, et see ei veniks üle ekraani */
+    padding: 50px; /* Lisab teksti ümber polsterdust */
 }
-*/
+
+
+.movie-links a {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.side-panel {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.side-panel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-panel a:hover {
+    color: #f1f1f1;
+}
+
+header {
+    background: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+#sidePanelToggler {
+    font-size: 24px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: #818181;
+}
+
+.director {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8); /* Lisab läbipaistvuse, et tekst oleks loetavam */
+}
+
+.director h2 {
+    font-size: 30px; /* Suurendab pealkirja suurust */
+    color: #333; /* Määrab pealkirja tekstile tumedama värvi */
+    margin-bottom: 20px; /* Lisab pealkirja alla ruumi */
+}
+
+.content h2 {
+    text-align: center; /* Keskele joondamine */
+    font-size: 24px; /* Suurendab pealkirja suurust */
+    margin-top: 30px; /* Lisab ülemisele küljele marginaali */
+    margin-bottom: 20px; /* Lisab alumisele küljele marginaali */
+}
+
+/* Esimene sektsioon */
+.first-section {
+    min-height: 100vh; /* Võtab vähemalt täisekraani kõrguse */
+    /* Muud stiilid... */
+}
+
+/* Teine sektsioon */
+.second-section {
+    display: none; /* Peida teine sektsioon esialgu */
+    /* Muud stiilid... */
+}
