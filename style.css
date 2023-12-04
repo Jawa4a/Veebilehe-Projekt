@@ -23,8 +23,16 @@ img {
 
 h1 {
     color: #f1f1f1;
-    padding: 0; /* Eemaldab polsterduse */
     padding: 0px 20px 0px 20px; /* Lisab vasakule 20px marginaali */
+}
+
+#Koduleht {
+    color: #f1f1f1;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 20px;
+    font-size: 2em;
+    text-decoration: none;
 }
 
 .content h5 {
