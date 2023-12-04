@@ -1,48 +1,126 @@
 <!DOCTYPE html>
-<html lang="ee">
+<html lang="et">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aladdin</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Sherlock Holmes</title>
+<link rel="stylesheet" href="style.css">
+<style>
+</style>
 </head>
+
 <body>
-    <header>
-        <a id="Koduleht" href="pealeht.html">21. sajandi filmid: Aladdin</a>
-        <button id="sidePanelToggler">&#9776;</button>
-    </header>
+<div class="wrapper">
+<header>
+<h1>Sherlock Holmes</h1>
+<button id="sidePanelToggler">&#9776;</button>
+<aside id="sidePanel" class="side-panel">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">✖</a>
+	<a href="Pealeht.html">Guy Ritche</a>
+	<a href="SherlockHolmes.html">Sherlock Holmes</a>
+	<a href="SherlockHolmes2.html">Sherlock Holmes: Varjude Mäng</a>
+	<a href="Aladdin.html">Aladdin</a>
+	<a href="TheCovenant.html">Tugev Seljatagune</a>
+</aside>
+</header>
+<nav></nav>
+<h3>2009</h3>
+<h3>2 h 8 min</h3>
+<div class="tutvustus">
+<div style="float:right;width:30%; margin-left:1vw;margin-bottom:1vw;">
+<img src="Pildid/sherlock.jpg" alt="Filmi Sherlock Holmes poster" style="width:100%;">
+<a class="popup1_open" href="#" onclick="popup1_open" style="outline:1px solid #222e33;padding-top:1vw;padding-bottom:1vw;display:flex;justify-content:center;align-content:center;align-items: center;">
+<div style="width:clamp(16px, 4vw, 20px);height: clamp(16px, 4vw, 20px);background:white;border-radius:50%;float:left; margin-right:0.6vw;">
+<div style="margin-top:clamp(1px, 0.5vw, 3px);margin-left:clamp(4px, 1vw, 5px); width: clamp(10px, 4vw, 13px); height: clamp(9px, 4vw, 14px); background-color:#09161c; clip-path: polygon(0 0, 0% 100%, 100% 50%);"></div>
+</div>Treiler</a>
+</div>
+<p style="text-align:justify;">
+	"Sherlock Holmes" on 2009. aastal esilinastunud briti-ameerika märulifilm, mille lavastas Guy Ritchie. 
+	Filmi peaosades on Robert Downey Jr. kui Sherlock Holmes ja Jude Law kui tema ustav kaaslane dr John Watson.
+	Film jälgib kuulsa detektiivi Sherlock Holmesi seiklusi, kui ta püüab paljastada salakavalat kuritööd, mille taga on salapärane ärimees Lord Blackwood (mängib Mark Strong). 
+	Pärast seda, kui Holmes ja Watson on Blackwoodi vahistamise edukalt läbi viinud, naaseb kurjategija üllatuslikult surnuna. 
+	Nüüd peavad Holmes ja Watson uurima ühe keerulisemaid ja ohtlikumaid saladusi, mis tõukavad neid sügavamale salasepitsustesse.
+	"Sherlock Holmes" eristub oma kaasaegse ja dünaamilise lähenemisviisi poolest klassikalisest detektiivilugudest. 
+	Film pakub pinget, visuaalset stiili ning näitlejate tugevaid esitusi, muutes selle põnevaks ja meelelahutuslikuks seiklusdraamaks.
+</p>
+<h2>Reiting</h2>
+<div class="reitingud">
+<a href="https://www.imdb.com/title/tt0988045/">IMDb RATING: 7.6</a>
+<a href="https://www.rottentomatoes.com/m/sherlock_holmes_2009">Rotten Tomatoes: <ul><li>TOMATOMETER: 70%</li><li>AUDIENCE SCORE: 77%</li></ul></a>
+<a href="https://www.metacritic.com/movie/sherlock-holmes/">METACRTITIC: <ul><li>METASCORE: 57</li><li>USER SCORE: 7.7</li></ul></a>
+</div>
+</div>
+<div id="popup1"><div class='embed-container'>
+	<iframe class="embed-iframe" width="640" height="360" src='https://www.youtube.com/embed/iKUzhzustok?enablejsapi=1' allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+	</iframe></div></div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/vast-engineering/jquery-popup-overlay@2/jquery.popupoverlay.min.js"></script>
+<script>$('#popup1').popup({onclose: function () {$('.embed-iframe').each(function(){this.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');});}});</script>
+<!--JavaScripti eesmärk on avada overlay ja sammuti panna video automaatselt pausile, kui overlay kinni pannakse-->
 
-    <aside id="sidePanel" class="side-panel">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">✖</a>
-        <a href="Aladdin.html">Aladdin</a>
-        <a href="SherlockHolmes.html">Sherlock Holmes</a>
-    </aside>
 
-    <div>
-        <section class="content">
-            <table width="100%" height="100%">
-                <tr> <!-- Lisage tabeli rida -->
-                    <td id="tabel1" width="60%">
-                        <h2 id="guy-ritchie-heading">Aladdin</h2>
-                        <p>Film "Aladdin" on lugu noorest vaesest mehest Aladdinst, kes avastab võluvaiba ja võlulambi, milles elab džinn, kes suudab täita kolm soovi. See viib ta seiklustele, armastusele printsess Jasmine'iga ja konfliktile kurja võluriga, kes tahab lampi endale saada.</p>
-                        <h3 id="movielinktutvustav_tekst">Vajuta lingile, et vaadata Aladdini treilerit Youtubes</h3>
-                        <div class="movie-links">
-                            <a href="https://www.youtube.com/watch?v=VcBllhVj1eA&ab_channel=KinoCheck.com">Link Aladdini YouTube treilerile</a>
-                        </div>
-                    </td>
-                    <td width="40%">
-                        <figure>
-                            <img src="scale.jpg" alt="Disney Aladdini reklaam plakat">
-                            <figcaption>(Disney, 2023)</figcaption>
-                        </figure>
-                        <h6>Disney Aladdini reklaam plakat</h6>
-                    </td>
-                    
-                </tr>
-            </table>
-        </section>
-    </div>
-    <script src="javascript.js"></script>
+
+<h2 style="margin-top: 2vw; margin-bottom: 2vw;">Kust vaadata &#10095;</h2>
+<div class="voogedastus-platvormid">
+<a href="https://www.amazon.co.uk/gp/video/detail/B00FAKALY0/ref=atv_dp_amz_c_TS8274d9_1_1?jic=16%7CCgNhbGwSA2FsbA%3D%3D">
+<img src="Pildid/Prime_Video.jpg" alt="Prime Video pilt" class="kust-vaadata">
+</a>
+<a href="https://tv.apple.com/us/movie/sherlock-holmes/umc.cmc.579n7joi0j443gu5o9baq6x4i">
+<img src="Pildid/AppleTV.jpg" alt="Apple TV pilt" class="kust-vaadata">
+</a>
+<a href="https://go3.tv/tvod/sherlock-holmes,vod-4911080">
+<img src="Pildid/Go3.jpg" alt="Go3 pilt" class="kust-vaadata">
+</a>
+</div>
+
+
+<h2 style="margin-top: 2vw;margin-bottom: 2vw;">Top näitlejad &#10095;</h2>
+<div class="näitlejate-konteiner">
+<figure class="näitleja-eraldi-konteiner">
+<a href="https://www.imdb.com/name/nm0000375/?ref_=tt_cl_i_1">
+    <img src="Pildid/Robert_Downey_Jr.jpg" alt="Robert Downey Jr. pilt" class="näitleja-pilt">
+</a>
+<h4 class="näitleja-nimi">Robert Downey Jr.</h4>
+<figcaption class="tegelane">(Sherlock Holmes)</figcaption>
+</figure>
+<figure class="näitleja-eraldi-konteiner">
+<a href="https://www.imdb.com/name/nm0000179/?ref_=tt_cl_t_2">
+    <img src="Pildid/Jude_Law.jpg" alt="Jude Law pilt" class="näitleja-pilt">
+</a>
+<h4 class="näitleja-nimi">Jude Law</h4>
+<figcaption class="tegelane">(Dr. John Watson)</figcaption>
+</figure>
+<figure class="näitleja-eraldi-konteiner">
+<a href="https://www.imdb.com/name/nm1046097/?ref_=tt_cl_t_3">
+    <img src="Pildid/Rachel_McAdams.jpg" alt="Rachel McAdamsi pilt" class="näitleja-pilt">
+</a>
+<h4 class="näitleja-nimi">Rachel McAdams</h4>
+<figcaption class="tegelane">(Irene Adler)</figcaption>
+</figure>
+<figure class="näitleja-eraldi-konteiner">
+<a href="https://www.imdb.com/name/nm0835016/?ref_=tt_cl_t_4">
+    <img src="Pildid/Mark_Strong.jpg" alt="Mark Strongi pilt" class="näitleja-pilt">
+</a>
+<h4 class="näitleja-nimi">Mark Strong</h4>
+<figcaption class="tegelane">(Lord Henry Blackwood)</figcaption>
+</figure>
+<figure class="näitleja-eraldi-konteiner">
+<a href="https://www.imdb.com/name/nm0550371/?ref_=tt_cl_t_5">
+    <img src="Pildid/Eddie_Marsan.jpg" alt="Eddie Marsani pilt" class="näitleja-pilt">
+</a>
+<h4 class="näitleja-nimi">Eddie Marsan</h4>
+<figcaption class="tegelane">(Inspektor Lestrade)</figcaption>
+</figure>
+</div>
+
+
+<footer>
+	<div class="lehe-vahetus">
+	<a href="Pealeht.html" class="eelmine-leht">&#129052; Guy Ritchie</a><br>
+	<a href="SherlockHolmes2.html" class="järgmine-leht">Sherlock Holmes: Varjude Mäng &#129054;</a>
+	</div>
+</footer>
+</div>
+<script src="sidepanel.js"></script>
 </body>
-
 </html>
