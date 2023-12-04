@@ -8,30 +8,109 @@
 </head>
 <body>
     <header>
-        <button id="sidePanelToggler">&#9776;</button>
         <h1>21. sajandi filmid</h1>
+        <button id="guyRitchieBtn">Guy Ritchie</button>
+        <button id="Christofer_Nolan_section_nupp">Christofer Nolan</button>
+        <button id="Quentin_Tarantino_section_nupp">Quentin Tarantino</button>
+        <button id="sidePanelToggler">&#9776;</button>
     </header>
-    <section class="content first-section">
-        <section class="content">
-            <p>21. sajandi Hollywoodi filmid on olnud tehnoloogiliste uuenduste ja žanrite mitmekesisuse poolest märkimisväärsed, tuues esile nii ulatusliku digitaalse efektide kasutuse kui ka globaalsed narratiivid, mis peegeldavad laia publikut. Samuti on see periood olnud tunnistajaks indie-filmide tõusule ja suurte frantsiiside domineerimisele, mis on muutnud nii filmide tootmist kui ka tarbimist.</p>
-        </section>
+
+    <section class="content">
+            <h5 id="Esimene_tekst_on_natuke_teistsugune">21. sajandi Hollywoodi filmid on olnud tehnoloogiliste uuenduste ja žanrite mitmekesisuse poolest märkimisväärsed, tuues esile nii ulatusliku digitaalse efektide kasutuse kui ka globaalsed narratiivid, mis peegeldavad laia publikut. Samuti on see periood olnud tunnistajaks indie-filmide tõusule ja suurte frantsiiside domineerimisele, mis on muutnud nii filmide tootmist kui ka tarbimist.</h5>
+            <button id="guyRitchieBtn2">▼</button>
+            <h4 id="tühi_sõne,_et_oleks_lihtsam_polsterdada"></h4>
     </section>
-    
-    <section class="content second-section" id="guy-ritchie-section">
-        <h2>Guy Ritchie</h2> <!-- Uus pealkiri Guy Ritchie kohta -->
-        <p>Guy Ritchie on tuntud kui uuenduslik režissöör, kelle filmid, nagu "Lock, Stock and Two Smoking Barrels" ja "Snatch", on märkimisväärsed nende eristuva stiili ja dünaamilise jutuvestmise poolest. Tema hilisemad teosed, sealhulgas "Sherlock Holmes" ja "Aladdin", näitavad tema võimet suunata suure eelarvega linateoseid, tuues ekraanile uut elu klassikalistele lugudele.</p>
-        <div class="movie-links">
-            <a href="C:\Users\hanne\OneDrive - Tartu Ülikool\Dokumendid\UT\Sissejuhatus Erialasse\Veeibilehe projekt\Veebilehe-Projekt\Aladdin.html" target="_blank">Aladdin</a>
-            <a href="C:\Users\hanne\OneDrive - Tartu Ülikool\Dokumendid\UT\Sissejuhatus Erialasse\Veeibilehe projekt\Veebilehe-Projekt\SherlockHolmes.html" target="_blank">Sherlock Holmes</a>
-        </div>
-    </section>
+
 
 
     <aside id="sidePanel" class="side-panel">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="C:\Users\hanne\OneDrive - Tartu Ülikool\Dokumendid\UT\Sissejuhatus Erialasse\Veeibilehe projekt\Veebilehe-Projekt\Aladdin.html" target="_blank" target="_blank">Aladdin</a>
-        <a href="C:\Users\hanne\OneDrive - Tartu Ülikool\Dokumendid\UT\Sissejuhatus Erialasse\Veeibilehe projekt\Veebilehe-Projekt\SherlockHolmes.html" target="_blank">Sherlock Holmes</a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">✖</a>
+        <a href="Aladdin.html">Aladdin</a>
+        <a href="SherlockHolmes.html">Sherlock Holmes</a>
     </aside>
+    <div>
+        <section id="guy-ritchie-section" class="content guy-ritchie-section">
+            <table width="100%" height="100%">
+                <tr> <!-- Lisage tabeli rida -->
+                    <td id="tabel1" width="60%">
+                        <h2 id="guy-ritchie-heading">Guy Ritchie</h2>
+                        <p>Guy Ritchie on tuntud kui uuenduslik režissöör, kelle filmid, nagu "Lock, Stock and Two Smoking Barrels" ja "Snatch", on märkimisväärsed nende eristuva stiili ja dünaamilise jutuvestmise poolest. Tema hilisemad teosed, sealhulgas "Sherlock Holmes" ja "Aladdin", näitavad tema võimet suunata suure eelarvega linateoseid, tuues ekraanile uut elu klassikalistele lugudele.</p>
+                        <h3 id="movielinktutvustav_tekst">Vajuta filmi nimele, et leida infot filmi kohta</h3>
+                        <div class="movie-links">
+                            <a href="Aladdin.html">Aladdin</a>
+                            <a href="SherlockHolmes.html">Sherlock Holmes</a>
+                        </div>
+                    </td>
+                    <td width="40%">
+                        <figure>
+                            <img src="GuyRitchie.jpg" alt="Pildil on filmirežisöör Guy Ritchie" width="500" height="600">
+                            <figcaption>(Vikipeedia, 2022)</figcaption>
+                        </figure>
+                        <h6>Pildil on filmirežisöör Guy Ritchie</h6>
+                    </td>
+                    
+                </tr>
+                <tr> <!-- Uus tabeli rida nupu jaoks -->
+                    <td colspan="2"> <!-- colspan="2", et nupp katab mõlemad tulbad -->
+                        <button id="Christofer_Nolan_section_nupp2">▼</button>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        
+        <section id="Christofer_Nolan_section" class="content Christofer_Nolan_section">
+            <table width="100%" height="100%">
+                <tr> <!-- Lisage tabeli rida -->
+                    <td id="tabel1" width="60%">
+                        <h2 id="guy-ritchie-heading">Christofer Nolan</h2>
+                        <p>Guy Ritchie on tuntud kui uuenduslik režissöör, kelle filmid, nagu "Lock, Stock and Two Smoking Barrels" ja "Snatch", on märkimisväärsed nende eristuva stiili ja dünaamilise jutuvestmise poolest. Tema hilisemad teosed, sealhulgas "Sherlock Holmes" ja "Aladdin", näitavad tema võimet suunata suure eelarvega linateoseid, tuues ekraanile uut elu klassikalistele lugudele.</p>
+                        <h3 id="movielinktutvustav_tekst">Vajuta filmi nimele, et leida infot filmi kohta</h3>
+                        <div class="movie-links">
+                            <a href="Aladdin.html">Aladdin</a>
+                            <a href="SherlockHolmes.html">Sherlock Holmes</a>
+                        </div>
+                    </td>
+                    <td width="40%">
+                        <figure>
+                            <img src="GuyRitchie.jpg" alt="Pildil on filmirežisöör Guy Ritchie" width="500" height="600">
+                            <figcaption>(Vikipeedia, 2022)</figcaption>
+                        </figure>
+                        <h6>Pildil on filmirežisöör Guy Ritchie</h6>
+                    </td>
+                    
+                </tr>
+                <tr> <!-- Uus tabeli rida nupu jaoks -->
+                    <td colspan="2"> <!-- colspan="2", et nupp katab mõlemad tulbad -->
+                        <button id="Quentin_Tarantino_section_nupp2">▼</button>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="Quentin_Tarantino_section" class="content Quentin_Tarantino_section">
+            <table width="100%" height="100%">
+                <tr> <!-- Lisage tabeli rida -->
+                    <td id="tabel1" width="60%">
+                        <h2 id="guy-ritchie-heading">Quentin Tarantino</h2>
+                        <p>Guy Ritchie on tuntud kui uuenduslik režissöör, kelle filmid, nagu "Lock, Stock and Two Smoking Barrels" ja "Snatch", on märkimisväärsed nende eristuva stiili ja dünaamilise jutuvestmise poolest. Tema hilisemad teosed, sealhulgas "Sherlock Holmes" ja "Aladdin", näitavad tema võimet suunata suure eelarvega linateoseid, tuues ekraanile uut elu klassikalistele lugudele.</p>
+                        <h3 id="movielinktutvustav_tekst">Vajuta filmi nimele, et leida infot filmi kohta</h3>
+                        <div class="movie-links">
+                            <a href="Aladdin.html">Aladdin</a>
+                            <a href="SherlockHolmes.html">Sherlock Holmes</a>
+                        </div>
+                    </td>
+                    <td width="40%">
+                        <figure>
+                            <img src="GuyRitchie.jpg" alt="Pildil on filmirežisöör Guy Ritchie" width="500" height="600">
+                            <figcaption>(Vikipeedia, 2022)</figcaption>
+                        </figure>
+                        <h6>Pildil on filmirežisöör Guy Ritchie</h6>
+                    </td>
+                    
+                </tr>
+            </table>
+        </section>
+    </div>
 
     <script src="javascript.js"></script>
 </body>

@@ -7,20 +7,143 @@ body, html {
     background-size: cover;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
 .content p {
+    text-align: left; /* Jätab teksti vasakule joondatud */
+    font-size: 40px; /* Jätkab teksti suuruse suurendamist */
+    margin-left: 0px; /* Lisab vasakule marginaali, et hoida teksti 50 piksli kaugusel vasakust servast */
+    max-width: 1500px; /* Jätkab teksti laiuse piiramist */
+    padding: 0px; /* Jätkab polsterduse lisamist */
+    line-height: 60px; /* Jätkab ridade vaheliste vahede suurendamist */
+    margin-left: 50px;
+}
+
+h1 {
+    color: #f1f1f1;
+    padding: 0; /* Eemaldab polsterduse */
+    padding: 0px 20px 0px 20px; /* Lisab vasakule 20px marginaali */
+}
+
+.content h5 {
     text-align: center; /* Keskele joondamine */
     font-size: 40px; /* Suurendab teksti suurust */
     margin: 0 auto; /* Lisab automaatse marginaali mõlemale küljele, et hoida tekst keskel */
     max-width: 1500px; /* Piirab teksti laiust, et see ei veniks üle ekraani */
-    padding: 50px; /* Lisab teksti ümber polsterdust */
+    padding: 100px; /* Lisab teksti ümber polsterdust */
+    line-height: 60px; /* Suurendab ridade vahelisi vahesid */
+    font-weight: normal; /* Eemaldab bold stiili */
+}
+
+#guyRitchieBtn2 {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border: none; /* Eemaldab äärise */
+    background: transparent; /* Muudab tausta läbipaistvaks */
+    cursor: pointer; /* Muudab kursori näidiku, kui hiir on nupu kohal */
+    font-size: 24px; /* Määrab teksti suuruse, kohandage vastavalt vajadusele */
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 100px;
 }
 
 
+#Christofer_Nolan_section_nupp2 {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border: none; /* Eemaldab äärise */
+    background: transparent; /* Muudab tausta läbipaistvaks */
+    cursor: pointer; /* Muudab kursori näidiku, kui hiir on nupu kohal */
+    font-size: 24px; /* Määrab teksti suuruse, kohandage vastavalt vajadusele */
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+#Quentin_Tarantino_section_nupp2 {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border: none; /* Eemaldab äärise */
+    background: transparent; /* Muudab tausta läbipaistvaks */
+    cursor: pointer; /* Muudab kursori näidiku, kui hiir on nupu kohal */
+    font-size: 24px; /* Määrab teksti suuruse, kohandage vastavalt vajadusele */
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+#tühi_sõne,_et_oleks_lihtsam_polsterdada {
+    visibility: hidden
+    padding = 100px;
+}
+
+#movielinktutvustav_tekst {
+    text-align: left; /* Keskele joondamine */
+    font-size: 30px; /* Suurendab teksti suurust */
+    margin-left: 50px; /* Lisab automaatse marginaali mõlemale küljele, et hoida tekst keskel */
+    max-width: 1500px; /* Piirab teksti laiust, et see ei veniks üle ekraani */
+    padding-top: 10px; /* Lisab teksti ümber polsterdust */
+    line-height: 10px; /* Suurendab ridade vahelisi vahesid */
+}
+
+#guy-ritchie-heading {
+    text-align: left; /* Center the text */
+    font-size: 60px; /* Set the font size to 60 pixels */
+    color: black; /* Set the font color to black */
+    font-weight: bold; /* Make the text bold */
+    margin-top: 0; /* Eemaldab ülemise marginaali */
+    margin-bottom: 0; /* Eemaldab alumise marginaali */
+    margin-left: 50px;
+    padding: 0px;
+}
+
+td {
+    vertical-align: top; /* Seab lahtrite sisu joondamise ülespoole */
+    padding: 50px;
+}
+
+
+
+.movie-links {
+    text-align: left; /* Joondab lingid keskele */
+}
+
 .movie-links a {
-    display: inline-block;
-    margin-right: 20px;
-    text-decoration: none;
-    color: #333;
+    display: inline-block; /* Näitab linke samal real */
+    font-size: 40px; /* Suurendab teksti suurust */
+    font-weight: bold; /* Teeb teksti paksuks */
+    margin-left: 50px; /* Lisab iga lingi vahele 40 piksli suuruse marginaali (kokku 80 pikslit) */
+    margin-right: 80px;
+    text-decoration: none; /* Eemaldab allajoonimise */
+    padding-top: 0px;
+}
+
+figure {
+    text-align: right; /* Joondab figcaption teksti paremale */
+}
+
+figcaption {
+    display: block; /* Teeb figcaption blokielemendiks */
+    /* Saate lisada täiendavaid stiile, nagu fonti suurus, värv jne */
+}
+
+h6 {
+    text-align: right; /* Joondab teksti paremale */
+    font-size: 25px; /* Määrab teksti suuruseks 25 pikslit */
+    font-weight: normal; /* Muudab teksti mitte-paksuks (mitte bold) */
+    margin-right: 40px; /* Võib olla vajalik, et eemaldada vaikimisi marginaalid */
+    margin-top: -10px; /* Negatiivne marginaal, et tuua tekst lähemale pildile */
 }
 
 .side-panel {
@@ -36,72 +159,110 @@ body, html {
     padding-top: 60px;
 }
 
-.side-panel a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-}
-
-.side-panel a:hover {
-    color: #f1f1f1;
-}
-
-header {
-    background: #000000;
-    color: #fff;
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-}
 
 #sidePanelToggler {
     font-size: 24px;
     cursor: pointer;
     background: none;
     border: none;
-    color: #fff;
+    color: #ffffff; /* Valge teksti värv */
     margin-right: 20px;
+}
+
+
+.side-panel a:not(.closebtn) {
+    padding: 45px 32px 8px 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-align: right;
+}
+
+.side-panel a:hover {
+    color: #f1f1f1;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0); /* See muudab päise tausta mustaks */
+    /* Lisage siin muid päisele vajalikke stiile */
 }
 
 .closebtn {
     position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
+    top: 2px;
+    right: 7px;
+    font-size: 27px; /* Suurendatud fonti suurus */
     margin-left: 50px;
     color: #818181;
+    padding: 20px; /* Lisatud polsterdus */
+    text-decoration: none;
 }
 
-.director {
+
+#guyRitchieBtn {
+    background-color: black; /* Muudab tausta värvi mustaks */
+    color: white; /* Muudab teksti värvi valgeks */
+    border: none; /* Eemaldab nupu piirjooned */
+    padding: 40px 20px; /* Lisab nupule polsterdust */
+    text-align: center; /* Joondab teksti keskele */
+    text-decoration: none; /* Eemaldab tekstilt allajoonimise */
+    display: inline-block; /* Muudab nupu kuju */
+    font-size: 16px; /* Määrab teksti suuruse */
+    padding: 20px;
+    cursor: pointer; /* Muudab kursori näidiku, kui hiir on nupu kohal */
+}
+
+#Christofer_Nolan_section_nupp {
+    background-color: black; /* Muudab tausta värvi mustaks */
+    color: white; /* Muudab teksti värvi valgeks */
+    border: none; /* Eemaldab nupu piirjooned */
+    padding: 10px 10px; /* Lisab nupule polsterdust */
+    text-align: center; /* Joondab teksti keskele */
+    text-decoration: none; /* Eemaldab tekstilt allajoonimise */
+    display: inline-block; /* Muudab nupu kuju */
+    font-size: 16px; /* Määrab teksti suuruse */
+    margin: 4px 2px; /* Lisab marginaali ümber nupu */
+    cursor: pointer; /* Muudab kursori näidiku, kui hiir on nupu kohal */
+    }
+
+#Quentin_Tarantino_section_nupp {
+    background-color: black; /* Muudab tausta värvi mustaks */
+    color: white; /* Muudab teksti värvi valgeks */
+    border: none; /* Eemaldab nupu piirjooned */
+    padding: 10px 10px; /* Lisab nupule polsterdust */
+    text-align: center; /* Joondab teksti keskele */
+    text-decoration: none; /* Eemaldab tekstilt allajoonimise */
+    display: inline-block; /* Muudab nupu kuju */
+    font-size: 16px; /* Määrab teksti suuruse */
+    margin: 4px 2px; /* Lisab marginaali ümber nupu */
+    cursor: pointer; /* Muudab kursori näidiku, kui hiir on nupu kohal */
+}
+
+.guy-ritchie-section {
     text-align: center;
-    padding: 50px;
-    background-color: rgba(255, 255, 255, 0.8); /* Lisab läbipaistvuse, et tekst oleks loetavam */
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0.8);
+    opacity: 0.000001; /* Algne läbipaistvus */
+    transition: opacity 1s ease; /* Sujuv üleminek läbipaistvusele */
 }
 
-.director h2 {
-    font-size: 30px; /* Suurendab pealkirja suurust */
-    color: #333; /* Määrab pealkirja tekstile tumedama värvi */
-    margin-bottom: 20px; /* Lisab pealkirja alla ruumi */
+.Christofer_Nolan_section {
+    text-align: center;
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0.8);
+    opacity: 0.000001; /* Algne läbipaistvus */
+    transition: opacity 1s ease; /* Sujuv üleminek läbipaistvusele */
 }
 
-.content h2 {
-    text-align: center; /* Keskele joondamine */
-    font-size: 24px; /* Suurendab pealkirja suurust */
-    margin-top: 30px; /* Lisab ülemisele küljele marginaali */
-    margin-bottom: 20px; /* Lisab alumisele küljele marginaali */
-}
-
-/* Esimene sektsioon */
-.first-section {
-    min-height: 100vh; /* Võtab vähemalt täisekraani kõrguse */
-    /* Muud stiilid... */
-}
-
-/* Teine sektsioon */
-.second-section {
-    display: none; /* Peida teine sektsioon esialgu */
-    /* Muud stiilid... */
+.Quentin_Tarantino_section {
+    text-align: center;
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0.8);
+    opacity: 0.000001; /* Algne läbipaistvus */
+    transition: opacity 1s ease; /* Sujuv üleminek läbipaistvusele */
 }

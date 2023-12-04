@@ -3,3 +3,9 @@ sherlock holmes pilt https://www.themoviedb.org/movie/10528-sherlock-holmes
 
 
 21. sajandit iseloomustab enneolematu tehnoloogilise arengu tempo, mis on muutnud inimeste igapäevaelu ja suhtlusviise. See on ajastu, kus digitaalne revolutsioon ja infoühiskonna laienemine on loonud uusi võimalusi teadmiste levitamiseks ja innovatsiooniks. Globaliseerumine on sidunud maailma tihedamalt kokku, toonud esile mitmekultuurilisuse ja suurendanud vastastikust sõltuvust majanduse, poliitika ning keskkonnakaitse valdkondades. Samuti on selle sajandi alguses teravnenud keskkonnateadlikkus, mille tulemusena on hakatud rohkem rõhku panema jätkusuutlikkusele ja rohelisele tehnoloogiale. Sotsiaalmeedia ja interneti plahvatuslik kasv on loonud uusi väljakutseid privaatsusele ja andmekaitsele, samal ajal kui sotsiaalsed liikumised, nagu võrdõiguslikkuse ja inimõiguste edendamine, on saanud uut hoogu. 21. sajand nõuab pidevat kohanemist ja õppimist, et sammu pidada kiiresti muutuva maailmaga.
+
+<h2>Guy Ritchie</h2> <!-- Uus pealkiri Guy Ritchie kohta -->
+            <p>Guy Ritchie on tuntud kui uuenduslik režissöör, kelle filmid, nagu "Lock, Stock and Two Smoking Barrels" ja "Snatch", on märkimisväärsed nende eristuva stiili ja dünaamilise jutuvestmise poolest. Tema hilisemad teosed, sealhulgas "Sherlock Holmes" ja "Aladdin", näitavad tema võimet suunata suure eelarvega linateoseid, tuues ekraanile uut elu klassikalistele lugudele.</p>
+            <div class="movie-links">
+                <a href="C:\Users\hanne\OneDrive - Tartu Ülikool\Dokumendid\UT\Sissejuhatus Erialasse\Veeibilehe projekt\Veebilehe-Projekt\Aladdin.html" target="_blank">Aladdin</a>
+                <a href="C:\Users\hanne\OneDrive - Tartu Ülikool\Dokumendid\UT\Sissejuhatus Erialasse\Veeibilehe projekt\Veebilehe-Projekt\SherlockHolmes.html" target="_blank">Sherlock Holmes</a>

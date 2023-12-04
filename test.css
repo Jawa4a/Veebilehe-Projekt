@@ -1,0 +1,19 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.tulp1, .tulp2 {
+    width: 50%; /* Iga tulp võtab 50% lehe laiusest */
+    height: 100%; /* Tulpade kõrgus on sama mis lehe kõrgus */
+    float: left; /* Tulbad on üksteise kõrval */
+}
+
+.tulp1 {
+    background: lightblue; /* Esimese tulba taustavärv */
+}
+
+.tulp2 {
+    background: lightgreen; /* Teise tulba taustavärv */
+}
