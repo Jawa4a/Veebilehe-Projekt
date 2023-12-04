@@ -107,7 +107,8 @@ a:active {
 	transform: scale(1.075);
 }
 .näitleja-nimi {
-	margin-top: 2vw;
+	margin-top: 1vw;
+	margin-bottom: 0.5vw;
 	text-align: center;
 	font-weight: bolder;
 }
@@ -241,10 +242,10 @@ footer {
     position: absolute;
     top: 2px;
     right: 7px;
-    font-size: 27px; / Suurendatud fonti suurus /
+    font-size: 27px;
     margin-left: 50px;
     color: #818181;
-    padding: 20px; / Lisatud polsterdus */
+    padding: 20px;
     text-decoration: none;
 }
 
